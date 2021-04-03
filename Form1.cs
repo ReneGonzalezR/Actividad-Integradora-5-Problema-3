@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Lenguaje de programacion III
+/// Autor: Rene Gonzalez Rodriguez
+/// Maestro: Aarón I. Salazar
+/// </summary>
 namespace Actividad_Integradora_5_Problema_3
 {
     public partial class Form1 : Form
     {
-         Veterinaria[] veterinarias = new Veterinaria[1000];
+        Veterinaria[] veterinarias = new Veterinaria[1000];
         public int contador = 0;
         public Form1()
         {
